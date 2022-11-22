@@ -1,0 +1,44 @@
+.followers_card>h3{
+    margin-bottom: 1rem;
+}
+.followers{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.fc_list{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.followers_details{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.followers_details>img{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.fc_name{
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+.fc_name>h3{
+    font-size: 0.9rem;
+
+}
+.fc_name>p{
+    font-size: .7rem;
+
+}
+.btn_fc{
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

@@ -1,0 +1,86 @@
+.sp_container {
+  display: flex;
+  max-width: 100%;
+  gap: 1rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: .6rem;
+}
+
+.sp_container > img {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.sp_inputs{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 1rem;
+}
+.sp_input_field{
+  background-color: var(--inputColor);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+}
+.sp_options{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sp_options> .option{
+display: flex;
+align-items: center;
+
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--inputColor);
+  border-radius: 10px;
+  padding: 5px;
+}
+.search > input {
+background-color: var(--inputColor);;
+  border: none;
+  outline: none;
+}
+
+.photo_btn{
+  color: var(--photo);
+  cursor: pointer;
+}
+.video_btn{
+  color: var(--video);
+}
+.loc_btn{
+  color: var(--location);
+}
+.shedule_btn{
+  color: var(--shedule);
+}
+.ps_btn{
+  height: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+.sp_preview{
+  position: relative;
+}
+.sp_close{
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  cursor: pointer;
+}
+.sp_img{
+  width: 100%;
+  max-height: 20rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
